@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Porcentajes y descuentos | Curso Práctico de JavaScript en Platzi</title>
+<link rel="stylesheet" href="./CSS/descuentos.css"/>
+</head>
+<body> 
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="./index.html" class="nav-logo">McCoders</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                <a href="./figuras.html" class="nav-link">Taller 1</a>
+            </li>
+            <li class="nav-item">
+            <a href="./descuentos.html" class="nav-link">Taller 2</a>
+            </li>
+            <li class="nav-item">
+            <a href="./promedio.html" class="nav-link">Taller 3</a>
+            </li>
+            <li class="nav-item">
+            <a href="./salarios.html" class="nav-link">Taller 4</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        </nav>
+    </header>
+
+<header>
+    <h1>
+    Porcentajes y descuentos 
+    </h1>
+    <p>Este es el segundo taller del Curso Práctico de JavaScript.</p>
+</header>
+
+<section>
+    <h2>Calcula el precio a pagar de tus productoss con descuento</h2>
+
+    <form>
+    <label for="InputPrice">Escribe el precio de tu producto:</label>
+    <input id="InputPrice" type="number" />
+
+    <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+    <input id="InputDiscount" type="number" />
+
+    <button type="button" onclick="onClickButtonPriceDiscount()">
+        Calcular el precio con descuento
+    </button>
+
+    <p id="ResultP"></p>
+    </form>
+</section>
+
+<script src="./JS/descuentos.js"></script>
+</body>
+</html>
