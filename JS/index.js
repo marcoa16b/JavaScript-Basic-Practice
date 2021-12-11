@@ -17,3 +17,7 @@ function closeMenu() {
 }
 
 //----------------------------------------------------
+
+// https://mfab.azurewebsites.net/api/HttpTrigger1?code=DpyUIT3b3zXTUkFejs9YAAoajTyzFMie2/5KNvKNLMXOCqTaewCkEA==
+
+// DpyUIT3b3zXTUkFejs9YAAoajTyzFMie2/5KNvKNLMXOCqTaewCkEA==

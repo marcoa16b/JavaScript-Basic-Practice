@@ -12,7 +12,7 @@
 
   <header class="header">
     <nav class="navbar">
-      <a href="#" class="nav-logo">McCoders</a>
+      <a href="./index.html" class="nav-logo">McCoders</a>
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="./figuras.html" class="nav-link">Taller 1</a>
@@ -36,40 +36,38 @@
   </header>
 
   <div class="course">
-    <h1>Curso práctico de JavaScript</h1>
+    <div class="content">
+      <h1><center>Curso práctico de JavaScript</center></h1>
 
-    <p><b>Temas vistos en el curso:</b> <br> 
-      Manipulacion del DOM <br>
-      Manipulación de Arrays <br>
-      Funciones <br>
-      HTML y CSS <br>
-      Animaciones y tranciciones</p>
+      <p><b>Temas vistos en el curso:</b> <br> 
+        Manipulacion del DOM <br>
+        Manipulación de Arrays <br>
+        Funciones <br>
+        HTML y CSS <br>
+        Animaciones y tranciciones</p>
+    </div>
+
+    <div class="image-platzi">
+      <img src="./images/image.png" alt="">
+    </div>
+    
   </div>
 
-  <section>
-    <nav>
-      <ol>
-        <li>
-          <a href="./figuras.html">Taller #1</a>
-        </li>
-        <li>
-          <a href="./descuentos.html">Taller #2</a>
-        </li>
-        <li>
-          <a href="./promedio.html">Taller #3a</a>
-        </li>
-        <li>
-          <a href="./mediana.html">Taller #3b</a>
-        </li>
-        <li>
-          <a href="./moda.html">Taller #3c</a>
-        </li>
-        <li>
-          <a href="./salarios.html">Taller #4</a>
-        </li>
-      </ol>
-    </nav>
-  </section>
+  <div class="buttons-container">
+    <form action="./figuras.html">
+      <button class="button" type="submit"><span>Taller #1 </span></button>
+    </form>
+    <form action="./descuentos.html">
+      <button class="button" type="submit"><span>Taller #2 </span></button>
+    </form>
+    <form action="./promedio.html">
+      <button class="button" type="submit"><span>Taller #3 </span></button>
+    </form>
+    <form action="./salarios.html">
+      <button class="button" type="submit"><span>Taller #4 </span></button>
+    </form>
+    
+  </div>
 
   <script src="./JS/index.js"></script>
 </body>
