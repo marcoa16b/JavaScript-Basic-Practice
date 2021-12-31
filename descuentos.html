@@ -15,7 +15,7 @@
             <ul class="nav-menu">
                 <li class="nav-item">
                 <a href="./figuras.html" class="nav-link">Taller 1</a>
-            </li>
+            </li> 
             <li class="nav-item">
             <a href="./descuentos.html" class="nav-link">Taller 2</a>
             </li>
@@ -34,30 +34,55 @@
         </nav>
     </header>
 
-<header>
-    <h1>
-    Porcentajes y descuentos 
-    </h1>
-    <p>Este es el segundo taller del Curso Práctico de JavaScript.</p>
-</header>
+<div class="title-header">
+    <h1>Porcentajes y descuentos</h1>
 
-<section>
+    <p>Este es el primer taller del curso práctico de JavaScript</p>
+</div>
+
+<!-- <section>
     <h2>Calcula el precio a pagar de tus productoss con descuento</h2>
 
     <form>
-    <label for="InputPrice">Escribe el precio de tu producto:</label>
-    <input id="InputPrice" type="number" />
+        <label for="InputPrice">Escribe el precio de tu producto:</label>
+        <input id="InputPrice" type="number" />
 
-    <label for="InputDiscount">Escribe el descuento de tu producto:</label>
-    <input id="InputDiscount" type="number" />
+        <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+        <input id="InputDiscount" type="number" />
 
-    <button type="button" onclick="onClickButtonPriceDiscount()">
-        Calcular el precio con descuento
-    </button>
+        <button type="button" onclick="onClickButtonPriceDiscount()">
+            Calcular el precio con descuento
+        </button>
 
-    <p id="ResultP"></p>
+        <p id="ResultP"></p>
     </form>
-</section>
+</section> -->
+
+<div class="inputs">
+
+    <div class="card-calc">
+        <h2>Calcula el precio a pagar de tus productoss con descuento</h2>
+
+        <form>
+
+            <label for="InputPrice">Escribe el precio de tu producto:</label><br>
+            <input id="InputPrice" type="number" /><br>
+
+            <label for="InputDiscount">Escribe el descuento de tu producto:</label><br>
+            <input id="InputDiscount" type="number" /><br>
+    
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                <span>Calcular el precio con descuento</span>
+            </button>
+
+            <p id="ResultP"></p>
+    
+        </form>
+    </div>
+
+<footer>
+    <p>Sitio creado por <b>Marco F. Agüero B.</b></p>
+</footer>
 
 <script src="./JS/descuentos.js"></script>
 </body>

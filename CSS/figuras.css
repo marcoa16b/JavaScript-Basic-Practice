@@ -152,7 +152,7 @@ footer {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: var(--white);
+        background-color: #FFFFFF;
         width: 100%;
         border-radius: 10px;
         text-align: center;
